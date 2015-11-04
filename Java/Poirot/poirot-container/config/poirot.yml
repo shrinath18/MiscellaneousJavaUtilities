@@ -1,0 +1,7 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 1920
+  adminConnectors:
+    - type: http
+      port: 1921   

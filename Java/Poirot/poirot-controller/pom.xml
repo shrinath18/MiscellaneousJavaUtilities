@@ -8,11 +8,18 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>shrinath.learning.poirot</groupId>
-  <artifactId>poirot-base</artifactId>
+  <artifactId>poirot-controller</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>poirot-base</name>
+  <name>poirot-controller</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <dependencies>
+    <dependency>
+      <groupId>shrinath.learning.poirot</groupId>
+      <artifactId>poirot-client-models</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
 </project>
