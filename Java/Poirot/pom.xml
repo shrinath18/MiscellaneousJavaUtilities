@@ -16,6 +16,7 @@
   	<module>poirot-service</module>
     <module>poirot-controller</module>
     <module>poirot-client-models</module>
+    <module>poirot-storm</module>
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
