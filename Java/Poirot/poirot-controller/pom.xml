@@ -21,10 +21,10 @@
       <artifactId>poirot-client-models</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
-    <dependency>
-	<groupId>org.apache.kafka</groupId>
-	<artifactId>kafka_2.9.2</artifactId>
-	<version>0.8.2.2</version>
-    </dependency>
+     <dependency>
+		<groupId>org.apache.kafka</groupId>
+		<artifactId>kafka-clients</artifactId>
+		<version>0.8.2.2</version>
+	  </dependency>
   </dependencies>
 </project>

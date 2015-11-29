@@ -4,6 +4,7 @@ import com.google.inject.Guice;
 import com.google.inject.Injector;
 
 import shrinath.learning.poirot.config.PoirotConfiguration;
+import shrinath.learning.poirot.controller.ProductViewController;
 import shrinath.learning.poirot.module.PoirotModule;
 import shrinath.learning.poirot.service.ProductViewResource;
 import io.dropwizard.Application;
@@ -23,6 +24,7 @@ public class PoirotService extends Application<PoirotConfiguration>
 			throws Exception {
 		Injector injector = Guice.createInjector(new PoirotModule());
 		environment.jersey().register(injector.getInstance(ProductViewResource.class));
+		ProductViewController.INSTANCE.setup();
 	}
 	
 	@Override 
